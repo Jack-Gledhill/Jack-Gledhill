@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://assets.jackgledhill.uk/longmark/portfolio/512.webp" />
+  <img src="https://assets.jackgledhill.com/web-assets/github-banner.png" />
 </p>
 
-<p align="center">"Experience is the name everyone gives to their mistakes." - Oscar Wilde</p>
+<p align="center">"You have enemies? Good. That means you've stood up for something, sometime in your life." - Sir Winston Churchill</p>
 
 # Hey there 👋
 
@@ -14,4 +14,4 @@
 
 <hr />
 
-<img align="left" src="https://assets.jackgledhill.uk/homepage/portrait/circle.webp" width="100"/> **Jack Gledhill** <br /> Full-stack Software Developer <br /> [Me@JackGledhill.UK](mailto:me@jackgledhill.uk) | [JackGledhill.UK](https://jackgledhill.uk) <br /> <img align="left" src="https://assets.jackgledhill.uk/signature/current/initials.svg" width="50"/>
+<img align="left" src="https://assets.jackgledhill.com/emojis/smile/128.png" width="100"/> **Jack Gledhill** <br /> Full-stack Software Developer <br /> [Email me](mailto:me@jackgledhill.com) | [My website](https://jackgledhill.com)
