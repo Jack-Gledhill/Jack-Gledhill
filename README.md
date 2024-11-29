@@ -10,30 +10,20 @@ import (
 )
 
 var (
-    Me = life.Person{
-        Name:       "Jack Gledhill",
-        Profession: "Software Engineer",
-        Skills: []string{
-            "Full-stack Development",
-            "Systems Administration",
-            "DevOps",
-            "GitOps",
+    Me = life.SoftwareEngineer{
+        Name:              "Jack Gledhill",
+        FavouriteLanguage: "Golang",
+        Socials: map[string]string{
+            "Discord":     "@jacktek",
+            "Website":     "https://jackgledhill.com",
+            "GitHub":      "https://github.com/Jack-Gledhill",
+            "LinkedIn":    "https://www.linkedin.com/in/jackgledhill",
+            "Stack Share": "https://stackshare.io/Jack-Gledhill/all-my-skills",
+            "Steam":       "https://steamcommunity.com/id/dovahtek",
+            "Apple Music": "https://music.apple.com/profile/jackgledhill",
+            "Ko-Fi":       "https://ko-fi.com/jackgledhill",
+            "Patreon":     "https://patreon.com/jgledhill",
         },
-    }
-    Languages = []string{
-        "Golang",
-        "Python",
-        "Java",
-        "Ruby",
-        "JavaScript",
-        "HTML/CSS",
-    }
-    Tools = []string{
-        "Git",
-        "JetBrains IDEs",
-        "Kubernetes",
-        "Docker",
-        "Ansible",
     }
     Education = []life.Education{
         {

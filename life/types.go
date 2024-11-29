@@ -1,14 +1,14 @@
 package life
 
-type Person struct {
-	Name       string
-	Profession string
-	Skills     []string
+type SoftwareEngineer struct {
+	Name              string
+	FavouriteLanguage string
+	Socials           map[string]string
 }
 
-func (p *Person) DoStuff() {}
+func (p *SoftwareEngineer) DoStuff() {}
 
-func (p *Person) TellSelf(m string) {}
+func (p *SoftwareEngineer) TellSelf(m string) {}
 
 type Experience struct {
 	Name     string
