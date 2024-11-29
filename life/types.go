@@ -8,6 +8,8 @@ type Person struct {
 
 func (p *Person) DoStuff() {}
 
+func (p *Person) TellSelf(m string) {}
+
 type Experience struct {
 	Name     string
 	Location int

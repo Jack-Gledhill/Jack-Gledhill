@@ -1,8 +1,6 @@
 package jack
 
 import (
-	"fmt"
-
 	"github.com/Jack-Gledhill/experiences"
 	"github.com/Jack-Gledhill/life"
 	"github.com/Jack-Gledhill/locations"
@@ -91,7 +89,7 @@ func init() {
 	// Recover from panics
 	defer func() {
 		if recover() != nil {
-			fmt.Println("There there, everything will be OK :)")
+			Me.TellSelf("There there, everything will be OK :)")
 		}
 	}()
 
