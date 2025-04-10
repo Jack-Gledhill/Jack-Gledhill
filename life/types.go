@@ -28,6 +28,5 @@ type Education struct {
 	Name   string
 	Course string
 	URL    string
-	Email  string
 	Year   uint8
 }

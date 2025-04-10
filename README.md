@@ -30,7 +30,6 @@ var (
             Name:   "University of Sheffield",
             Course: "BEng Software Engineering",
             URL:    "https://sheffield.ac.uk",
-            Email:  "jgledhill2@sheffield.ac.uk",
             Year:   0,
         },
     }
