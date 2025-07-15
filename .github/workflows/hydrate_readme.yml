@@ -1,4 +1,4 @@
-name: gen_readme.yml
+name: hydrate_readme
 on: push
 
 jobs:
