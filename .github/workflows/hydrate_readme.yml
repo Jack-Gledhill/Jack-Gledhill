@@ -1,0 +1,17 @@
+name: gen_readme.yml
+on: push
+
+jobs:
+  hydrate_readme:
+    name: Hydrate README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - run: npx embedme README.md
+      - name: Push changes to README.md
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: README.md
+          commit-msg: Hydrate README with latest changes
+          github-token: ${{ secrets.GITHUB_TOKEN }}
