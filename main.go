@@ -13,7 +13,7 @@ var Jack = Person{
 		Discord:  "@jacktek",
 		Email:    "me@jackgledhill.com",
 		GitHub:   "https://github.com/Jack-Gledhill",
-		LinkedIn: "https://www.linkedin.com/in/jackgledhill\"",
+		LinkedIn: "https://www.linkedin.com/in/jackgledhill",
 		Website:  "https://jackgledhill.com",
 	},
 	Occupation: Occupation{
