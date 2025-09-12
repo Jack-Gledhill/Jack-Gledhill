@@ -17,9 +17,9 @@ var Jack = Person{
 		Website:  "https://jackgledhill.com",
 	},
 	Occupation: Occupation{
-		Role:     "Web Developer Intern",
-		Employer: "b:friend",
-		URL:      "https://letsbfriend.org.uk",
+		Role:     "Student Web Developer & Digital Support",
+		Employer: "Sheffield Students' Union",
+		URL:      "https://su.sheffield.ac.uk",
 	},
 	Education: Education{
 		Institution: "University of Sheffield",
