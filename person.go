@@ -7,6 +7,7 @@ type Person struct {
 	Education  Education
 	Languages  []int
 	Pronouns   []int
+	Projects   []Project
 }
 
 func (p *Person) DoStuff() {}

@@ -1,14 +1,9 @@
 package jack
 
-import (
-	"github.com/Jack-Gledhill/Jack-Gledhill/languages"
-	"github.com/Jack-Gledhill/Jack-Gledhill/pronouns"
-)
-
 var Jack = Person{
 	Name:      "Jack Gledhill",
-	Pronouns:  []int{pronouns.HeHim, pronouns.TheyThem},
-	Languages: []int{languages.Go, languages.Python, languages.JavaScript},
+	Pronouns:  []int{HeHim, TheyThem},
+	Languages: []int{Go, Python, JavaScript, Ruby, Java, Haskell},
 	Contact: Contact{
 		Discord:  "@jacktek",
 		Email:    "me@jackgledhill.com",
@@ -27,6 +22,22 @@ var Jack = Person{
 		Graduated:   false,
 		Year:        2,
 		URL:         "https://sheffield.ac.uk",
+	},
+	Projects: []Project{
+		{
+			Name:         "jackgledhill.com",
+			Description:  "Personal portfolio website",
+			Technologies: []int{Svelte},
+			URL:          "https://jackgledhill.com",
+			Source:       "https://github.com/Jack-Gledhill/jackgledhill.com",
+		},
+		{
+			Name:         "Constellation",
+			Description:  "Homelab, including Kubernetes & Proxmox clusters and TrueNAS server",
+			Technologies: []int{Kubernetes, TrueNAS, Proxmox},
+			URL:          "https://starsystem.dev",
+			Source:       "https://github.com/Jack-Gledhill/starsystem.dev",
+		},
 	},
 }
 

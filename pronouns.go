@@ -1,4 +1,4 @@
-package pronouns
+package jack
 
 const (
 	HeHim = iota

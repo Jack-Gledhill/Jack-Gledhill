@@ -1,4 +1,4 @@
-package languages
+package jack
 
 const (
 	Go = iota
@@ -6,4 +6,5 @@ const (
 	JavaScript
 	Java
 	Ruby
+	Haskell
 )
