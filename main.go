@@ -2,8 +2,8 @@ package jack
 
 var Jack = Person{
 	Name:      "Jack Gledhill",
-	Pronouns:  []int{HeHim, TheyThem},
-	Languages: []int{Go, Python, JavaScript, Ruby, Java, Haskell},
+	Pronouns:  []Pronoun{HeHim, TheyThem},
+	Languages: []Language{Go, Python, JavaScript, Ruby, Java, Haskell},
 	Contact: Contact{
 		Discord:  "@jacktek",
 		Email:    "me@jackgledhill.com",
@@ -27,14 +27,14 @@ var Jack = Person{
 		{
 			Name:         "jackgledhill.com",
 			Description:  "Personal portfolio website",
-			Technologies: []int{Svelte},
+			Technologies: []Technology{Svelte},
 			URL:          "https://jackgledhill.com",
 			Source:       "https://github.com/Jack-Gledhill/jackgledhill.com",
 		},
 		{
 			Name:         "Constellation",
 			Description:  "Homelab, including Kubernetes & Proxmox clusters and TrueNAS server",
-			Technologies: []int{Kubernetes, TrueNAS, Proxmox},
+			Technologies: []Technology{Kubernetes, TrueNAS, Proxmox},
 			URL:          "https://starsystem.dev",
 			Source:       "https://github.com/Jack-Gledhill/starsystem.dev",
 		},

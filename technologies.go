@@ -7,3 +7,5 @@ const (
 	Svelte
 	React
 )
+
+type Technology = int

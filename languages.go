@@ -8,3 +8,5 @@ const (
 	Ruby
 	Haskell
 )
+
+type Language = int

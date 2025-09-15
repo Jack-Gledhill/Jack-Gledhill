@@ -5,3 +5,5 @@ const (
 	SheHer
 	TheyThem
 )
+
+type Pronoun = int
