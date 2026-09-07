@@ -12,7 +12,7 @@ var Jack = Person{
 		Website:  "https://jackgledhill.com",
 	},
 	Occupation: Occupation{
-		Role:     "Student Web Developer & Digital Support",
+		Role:     "Student Web Developer",
 		Employer: "Sheffield Students' Union",
 		URL:      "https://su.sheffield.ac.uk",
 	},
@@ -20,23 +20,23 @@ var Jack = Person{
 		Institution: "University of Sheffield",
 		Course:      "MEng Software Engineering",
 		Graduated:   false,
-		Year:        2,
+		Year:        3,
 		URL:         "https://sheffield.ac.uk",
 	},
 	Projects: []Project{
 		{
 			Name:         "jackgledhill.com",
 			Description:  "Personal portfolio website",
-			Technologies: []Technology{Svelte},
+			Technologies: []Technology{Svelte, TailwindCSS},
 			URL:          "https://jackgledhill.com",
 			Source:       "https://github.com/Jack-Gledhill/jackgledhill.com",
 		},
 		{
 			Name:         "Constellation",
-			Description:  "Homelab, including Kubernetes & Proxmox clusters and TrueNAS server",
-			Technologies: []Technology{Kubernetes, TrueNAS, Proxmox},
+			Description:  "Home network featuring a Proxmox server and Kubernetes cluster",
+			Technologies: []Technology{Ansible, Kubernetes, Proxmox},
 			URL:          "https://starsystem.dev",
-			Source:       "https://github.com/Jack-Gledhill/starsystem.dev",
+			Source:       "https://github.com/Jack-Gledhill/constellation",
 		},
 	},
 }

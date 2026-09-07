@@ -2,10 +2,10 @@ package jack
 
 const (
 	Kubernetes = iota
-	TrueNAS
 	Proxmox
+	Ansible
 	Svelte
-	React
+	TailwindCSS
 )
 
 type Technology = int
