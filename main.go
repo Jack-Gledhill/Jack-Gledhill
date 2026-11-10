@@ -1,9 +1,10 @@
-package jack
+package jj
 
-var Jack = Person{
-	Name:      "Jack Gledhill",
-	Pronouns:  []Pronoun{HeHim, TheyThem},
-	Languages: []Language{Go, Python, JavaScript, Ruby, Java, Haskell},
+var JJ = Person{
+	Name:          "Jack Gledhill",
+	PreferredName: "JJ",
+	Pronouns:      []Pronoun{HeHim, TheyThem},
+	Languages:     []Language{Go, Python, JavaScript, Ruby, Java, Haskell},
 	Contact: Contact{
 		Discord:  "@jacktek",
 		Email:    "me@jackgledhill.com",
@@ -45,9 +46,9 @@ func init() {
 	// Recover from panics
 	defer func() {
 		if recover() != nil {
-			Jack.TellSelf("There there, everything will be OK :)")
+			JJ.TellSelf("There there, everything will be OK :)")
 		}
 	}()
 
-	Jack.DoStuff()
+	JJ.DoStuff()
 }

@@ -1,13 +1,14 @@
-package jack
+package jj
 
 type Person struct {
-	Name       string
-	Contact    Contact
-	Occupation Occupation
-	Education  Education
-	Languages  []int
-	Pronouns   []int
-	Projects   []Project
+	Name          string
+	PreferredName string
+	Contact       Contact
+	Occupation    Occupation
+	Education     Education
+	Languages     []int
+	Pronouns      []int
+	Projects      []Project
 }
 
 func (p *Person) DoStuff() {}

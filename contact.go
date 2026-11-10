@@ -1,4 +1,4 @@
-package jack
+package jj
 
 type Contact struct {
 	Discord   string

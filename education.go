@@ -1,4 +1,4 @@
-package jack
+package jj
 
 type Education struct {
 	Institution string

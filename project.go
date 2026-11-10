@@ -1,4 +1,4 @@
-package jack
+package jj
 
 type Project struct {
 	Name         string

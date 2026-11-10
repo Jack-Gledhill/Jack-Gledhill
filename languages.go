@@ -1,4 +1,4 @@
-package jack
+package jj
 
 const (
 	Go = iota
